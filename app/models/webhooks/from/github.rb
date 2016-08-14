@@ -24,7 +24,7 @@ class Webhooks::From::Github < Webhooks::From::Base
 
   def additional_message
     msg = assigned? ? "you've been assigned" : super
-    msg += "plus"
+    msg += " plus test"
     msg
   end
 
